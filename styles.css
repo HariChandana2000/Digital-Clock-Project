@@ -108,3 +108,20 @@ h4 {
     padding: 10px;
   }
 }
+
+@media screen and (max-width: 630px) {
+  body {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: sans-serif;
+    background-size: cover;
+    background-position: right;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    color: white;
+  }
+}
